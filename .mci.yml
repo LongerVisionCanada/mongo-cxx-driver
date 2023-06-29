@@ -7,12 +7,12 @@
 #######################################
 variables:
 
-    mongoc_version_default: &mongoc_version_default "1.24.0"
+    mongoc_version_default: &mongoc_version_default "1.0.0"
 
     # If updating mongoc_version_minimum, also update:
     # - the default value of --c-driver-build-ref in etc/make_release.py
     # - LIBMONGOC_REQUIRED_VERSION in src/mongocxx/CMakeLists.txt
-    mongoc_version_minimum: &mongoc_version_minimum "1.24.0"
+    mongoc_version_minimum: &mongoc_version_minimum "1.0.0"
 
     mongodb_version:
         version_latest: &version_latest "latest"
